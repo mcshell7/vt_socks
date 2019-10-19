@@ -11097,7 +11097,7 @@ body {
     height: 100%; }
     .slider .slider_inner .slider_item {
       max-height: 500px;
-      width: 100vw;
+      width: 100%;
       background-repeat: no-repeat;
       background-position: center center;
       -webkit-background-size: cover;
@@ -12836,7 +12836,7 @@ select {
   .follow_inner {
     padding-bottom: 0px; }
   .hidden_menu_background {
-    width: 100vw;
+    width: 100%;
     position: absolute;
     overflow: hidden;
     top: 0;
