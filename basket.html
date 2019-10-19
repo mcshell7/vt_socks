@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/common.js"></script>
+</head>
+<body>
+
+<header class="header">
+    <div class="header_top">
+        <div class="container">
+            <div class="header_top_inner">
+                <div class="header_top_left">
+                    <div class="header_top-menu" onclick="on()">
+                        <a href="#" > <span class="icon_menu ">MENU</span> </a>
+                    </div>
+                    <div class="header_top-phone">
+                        +38 (096) 762-40-96
+                    </div>
+                </div>
+                <div class="header_top_logo">
+                    <a href="#" class="header_logo"><img src="img/logo.svg" alt=""></a>
+                </div>
+                <div class="header_top_right">
+                    <ul class="header_icons">
+                        <li ><a href="#" class="search"></a></li>
+                        <li><a href="#" class="heart"></a></li>
+                        <li><a href="#" class="bag"></a></li>
+                        <li><a href="#" class="user"></a></li>
+                    </ul>
+                  <div class="container_select">
+                      <button class="select_lang">UA</button>
+                     <ul class="language" style ="display: none;">
+                         <li class="li_lang">UA</li>
+                         <li  class="li_lang">US</li>
+                     </ul>
+                      <button class=" select_currency">UA</button>
+                      <ul class=" currency" style ="display: none;">
+                          <li>UAH</li>
+                          <li>USD</li>
+                      </ul>
+                  </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="header_bottom">
+        <div class="container">
+            <nav class="menu stroke" >
+                <div class="header_btn_menu">
+                    каталог продукції
+                    <span class="burger"></span>
+                </div>
+                <ul>
+                    <li class="menu1 ">
+                        <a href="#" class="eff" >Жінкам </a>
+                        <span></span>
+                        <div class="hidden_menu ">
+                            <div class="container">
+                                <div class="hidden_menu_inner">
+                                    <a class="hidden_item" href="#">
+                                        <div class="hidden_icons"><img src="img/woman1.svg" alt=""></div>
+                                        <div class="hidden_text">Довгі шкарпетки</div>
+                                    </a>
+                                    <a class="hidden_item" href="#">
+                                        <div class="hidden_icons"><img src="img/woman2.svg" alt=""></div>
+                                        <div class="hidden_text">Класичні шкарпетки</div>
+                                    </a>
+                                    <a class="hidden_item" href="#">
+                                        <div class="hidden_icons"><img src="img/woman3.svg" alt=""></div>
+                                        <div class="hidden_text">Короткі шкарпетки</div>
+                                    </a>
+                                    <a class="hidden_item" href="#" >
+                                        <div class="hidden_icons"><img src="img/woman1.svg" alt=""></div>
+                                        <div class="hidden_text">слід, підслідок</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="menu1"><a href="#" class="eff">чоловікам</a> <span></span>
+                        <div class="hidden_menu ">
+                            <div class="container">
+                                <div class="hidden_menu_inner">
+                                    <a class="hidden_item" href="#">
+                                        <div class="hidden_icons"><img src="img/man1.svg" alt=""></div>
+                                        <div class="hidden_text">Довгі шкарпетки</div>
+                                    </a>
+                                    <a class="hidden_item" href="#">
+                                        <div class="hidden_icons"><img src="img/man2.svg" alt=""></div>
+                                        <div class="hidden_text">Класичні шкарпетки</div>
+                                    </a>
+                                    <a class="hidden_item" href="#">
+                                        <div class="hidden_icons"><img src="img/man3.svg" alt=""></div>
+                                        <div class="hidden_text">Короткі шкарпетки</div>
+                                    </a>
+                                    <a class="hidden_item" href="#" >
+                                        <div class="hidden_icons"><img src="img/man4.svg" alt=""></div>
+                                        <div class="hidden_text">слід, підслідок</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="menu1"><a href="#" class="eff">Дітям</a> <span></span>
+                        <div class="hidden_menu ">
+                            <div class="container">
+                                <div class="hidden_menu_inner">
+                                    <a class="hidden_item" href="#">
+                                        <div class="hidden_icons"><img src="img/kid1.svg" alt=""></div>
+                                        <div class="hidden_text">Довгі шкарпетки</div>
+                                    </a>
+                                    <a class="hidden_item" href="#">
+                                        <div class="hidden_icons"><img src="img/kid2.svg" alt=""></div>
+                                        <div class="hidden_text">Класичні шкарпетки</div>
+                                    </a>
+                                    <a class="hidden_item" href="#">
+                                        <div class="hidden_icons"><img src="img/kid3.svg" alt=""></div>
+                                        <div class="hidden_text">Короткі шкарпетки</div>
+                                    </a>
+                                    <a class="hidden_item" href="#" >
+                                        <div class="hidden_icons"><img src="img/kid4.svg" alt=""></div>
+                                        <div class="hidden_text">слід, підслідок</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </li>
+                    <li><a href="#" class="sale eff">Sale</a></li>
+                    <li><a href="#" class="eff">підписка</a></li>
+                    <li><a href="#" class="eff" >подарункові коробки</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<div class="mask">
+    <div class="container">
+        <div class="mask_inner">
+            <ul class="mask_items">
+                <li class="mask_item"><a href="#">Головна</a></li>
+                <li class="mask_item"><a href="#">Чоловікам</a></li>
+                <li class="mask_item"><a href="#">Короткі шкарпетки</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="basket">
+    <div class="container">
+        <div class="basket_title_main">
+            Кошик
+        </div>
+        <div class="basket_container_inner">
+            <div class="basket_left">
+
+                <div class="basket_title">
+                    Оформлення замовлення
+                </div>
+                <div class="basket_info_item">
+                    <div class="form_box">
+
+                        <div class="form_box_item">
+                            <div class="form_box_title">
+                                персональна інформація
+                            </div>
+                            <label>
+
+                                <input type="checkbox">
+                                <div class="checkbox__text">Зареєструватись</div>
+                            </label>
+                            <label>
+                                <input type="text" placeholder="Ваше ім’я">
+                            </label>
+                            <label>
+                                <input type="text" placeholder="Фамілія">
+                            </label>
+                            <label>
+                                <input type="text" placeholder="Телефон">
+                            </label>
+                            <label>
+                                <input type="text" placeholder="Введіть код з СМС">
+                            </label>
+                            <label>
+                                <input type="text" placeholder="Email">
+                            </label>
+
+                        </div>
+                        <div class="form_box_item">
+                            <div class="form_box_title">
+                                Спосіб доставки
+                            </div>
+                            <label>
+
+                                <input type="checkbox">
+                                <div class="checkbox__text">Зареєструватись</div>
+                            </label>
+
+                            <label>
+
+                                <input type="checkbox">
+                                <div class="checkbox__text">Зареєструватись</div>
+                            </label>
+                            <label>
+
+                                <input type="checkbox">
+                                <div class="checkbox__text">Зареєструватись</div>
+                            </label>
+                            <select >
+                                <option value="">-------</option>
+                                <option value=""></option>
+                                <option value=""></option>
+                                <option value=""></option>
+                                <option value=""></option>
+                            </select>
+
+                        </div>
+                        <div class="form_box_item">
+                            <div class="form_box_title">
+                                Адреса доставки
+                            </div>
+
+                            <select >
+                                <option value="">Місто</option>
+                                <option value=""></option>
+                                <option value=""></option>
+                                <option value=""></option>
+                                <option value=""></option>
+                            </select>
+                            <select>
+                                <option value="">Номер відділення</option>
+                                <option value=""></option>
+                                <option value=""></option>
+                                <option value=""></option>
+                                <option value=""></option>
+                            </select>
+
+                        </div>
+                        <div class="form_box_item">
+                            <div class="form_box_title">
+                                Спосіб оплати
+                            </div>
+
+                            <select >
+                                <option value="">-------</option>
+                                <option value=""></option>
+                                <option value=""></option>
+                                <option value=""></option>
+                                <option value=""></option>
+                            </select>
+
+                        </div>
+                        <div class="form_box_item">
+                            <div class="form_box_title">
+                                Спосіб оплати
+                            </div>
+                            <textarea name="" id="" >Повідомлення</textarea>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="basket_right">
+                <div class="basket_title">
+                    товари у вашому кошику
+                </div>
+                <div class="basket_product_items">
+                    <div class="product_item">
+                        <div class="button_close">
+                            <div class="button_before">
+                            </div>
+                        </div>
+                        <div class="product_item_inner">
+                            <div class="product_item-left">
+                                <div class="product_item-img">
+                                    <img src="img/bitmap-1.png" alt="">
+                                </div>
+                            </div>
+
+                            <div class="product_item-right">
+                                <div class="product_item-title">
+                                    Шкарпетки короткі V&T
+                                </div>
+                                <div class="product_flex">
+
+
+                                    <div class="product_item-price_pre_one">
+                                        65.00 UAH
+                                    </div>
+                                    <div class="product_item-price_for_all">
+                                        65.00 UAH
+                                    </div>
+                                    <div class="product_item-quantity">
+                                        <div class="pay_item_1">
+                                            <div class="pay_item_text">
+                                                Кількість
+                                            </div>
+                                            <div class="pay_item_btn ">1</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="product_item">
+                        <div class="button_close">
+                            <div class="button_before" onclick="off_basket()">
+                            </div>
+                        </div>
+                        <div class="product_item_inner">
+                            <div class="product_item-left">
+                                <div class="product_item-img">
+                                    <img src="img/bitmap-1.png" alt="">
+                                </div>
+                            </div>
+
+                            <div class="product_item-right">
+                                <div class="product_item-title">
+                                    Шкарпетки короткі V&T
+                                </div>
+                                <div class="product_flex">
+
+
+                                    <div class="product_item-price_pre_one">
+                                        65.00 UAH
+                                    </div>
+                                    <div class="product_item-price_for_all">
+                                        65.00 UAH
+                                    </div>
+                                    <div class="product_item-quantity">
+                                        <div class="pay_item_1">
+                                            <div class="pay_item_text">
+                                                Кількість
+                                            </div>
+                                            <div class="pay_item_btn ">1</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="product_item">
+                        <div class="button_close">
+                            <div class="button_before" onclick="off_basket()">
+                            </div>
+                        </div>
+                        <div class="product_item_inner">
+                            <div class="product_item-left">
+                                <div class="product_item-img">
+                                    <img src="img/bitmap-1.png" alt="">
+                                </div>
+                            </div>
+
+                            <div class="product_item-right">
+                                <div class="product_item-title">
+                                    Шкарпетки короткі V&T
+                                </div>
+                                <div class="product_flex">
+
+
+                                    <div class="product_item-price_pre_one">
+                                        65.00 UAH
+                                    </div>
+                                    <div class="product_item-price_for_all">
+                                        65.00 UAH
+                                    </div>
+                                    <div class="product_item-quantity">
+                                        <div class="pay_item_1">
+                                            <div class="pay_item_text">
+                                                Кількість
+                                            </div>
+                                            <div class="pay_item_btn ">1</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="product_item">
+                        <div class="button_close">
+                            <div class="button_before" onclick="off_basket()">
+                            </div>
+                        </div>
+                        <div class="product_item_inner">
+                            <div class="product_item-left">
+                                <div class="product_item-img">
+                                    <img src="img/bitmap-1.png" alt="">
+                                </div>
+                            </div>
+
+                            <div class="product_item-right">
+                                <div class="product_item-title">
+                                    Шкарпетки короткі V&T
+                                </div>
+                                <div class="product_flex">
+
+
+                                    <div class="product_item-price_pre_one">
+                                        65.00 UAH
+                                    </div>
+                                    <div class="product_item-price_for_all">
+                                        65.00 UAH
+                                    </div>
+                                    <div class="product_item-quantity">
+                                        <div class="pay_item_1">
+                                            <div class="pay_item_text">
+                                                Кількість
+                                            </div>
+                                            <div class="pay_item_btn ">1</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="product_item">
+                        <div class="button_close">
+                            <div class="button_before" onclick="off_basket()">
+                            </div>
+                        </div>
+                        <div class="product_item_inner">
+                            <div class="product_item-left">
+                                <div class="product_item-img">
+                                    <img src="img/bitmap-1.png" alt="">
+                                </div>
+                            </div>
+
+                            <div class="product_item-right">
+                                <div class="product_item-title">
+                                    Шкарпетки короткі V&T
+                                </div>
+                                <div class="product_flex">
+
+
+                                    <div class="product_item-price_pre_one">
+                                        65.00 UAH
+                                    </div>
+                                    <div class="product_item-price_for_all">
+                                        65.00 UAH
+                                    </div>
+                                    <div class="product_item-quantity">
+                                        <div class="pay_item_1">
+                                            <div class="pay_item_text">
+                                                Кількість
+                                            </div>
+                                            <div class="pay_item_btn ">1</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="product_item">
+                        <div class="button_close">
+                            <div class="button_before" onclick="off_basket()">
+                            </div>
+                        </div>
+                        <div class="product_item_inner">
+                            <div class="product_item-left">
+                                <div class="product_item-img">
+                                    <img src="img/bitmap-1.png" alt="">
+                                </div>
+                            </div>
+
+                            <div class="product_item-right">
+                                <div class="product_item-title">
+                                    Шкарпетки короткі V&T
+                                </div>
+                                <div class="product_flex">
+
+
+                                    <div class="product_item-price_pre_one">
+                                        65.00 UAH
+                                    </div>
+                                    <div class="product_item-price_for_all">
+                                        65.00 UAH
+                                    </div>
+                                    <div class="product_item-quantity">
+                                        <div class="pay_item_1">
+                                            <div class="pay_item_text">
+                                                Кількість
+                                            </div>
+                                            <div class="pay_item_btn ">1</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="product_item">
+                        <div class="button_close">
+                            <div class="button_before" onclick="off_basket()">
+                            </div>
+                        </div>
+                        <div class="product_item_inner">
+                            <div class="product_item-left">
+                                <div class="product_item-img">
+                                    <img src="img/bitmap-1.png" alt="">
+                                </div>
+                            </div>
+
+                            <div class="product_item-right">
+                                <div class="product_item-title">
+                                    Шкарпетки короткі V&T
+                                </div>
+                                <div class="product_flex">
+
+
+                                    <div class="product_item-price_pre_one">
+                                        65.00 UAH
+                                    </div>
+                                    <div class="product_item-price_for_all">
+                                        65.00 UAH
+                                    </div>
+                                    <div class="product_item-quantity">
+                                        <div class="pay_item_1">
+                                            <div class="pay_item_text">
+                                                Кількість
+                                            </div>
+                                            <div class="pay_item_btn ">1</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="product_item">
+                        <div class="button_close">
+                            <div class="button_before" onclick="off_basket()">
+                            </div>
+                        </div>
+                        <div class="product_item_inner">
+                            <div class="product_item-left">
+                                <div class="product_item-img">
+                                    <img src="img/bitmap-1.png" alt="">
+                                </div>
+                            </div>
+
+                            <div class="product_item-right">
+                                <div class="product_item-title">
+                                    Шкарпетки короткі V&T
+                                </div>
+                                <div class="product_flex">
+
+
+                                    <div class="product_item-price_pre_one">
+                                        65.00 UAH
+                                    </div>
+                                    <div class="product_item-price_for_all">
+                                        65.00 UAH
+                                    </div>
+                                    <div class="product_item-quantity">
+                                        <div class="pay_item_1">
+                                            <div class="pay_item_text">
+                                                Кількість
+                                            </div>
+                                            <div class="pay_item_btn ">1</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="product_item">
+                        <div class="button_close">
+                            <div class="button_before" onclick="off_basket()">
+                            </div>
+                        </div>
+                        <div class="product_item_inner">
+                            <div class="product_item-left">
+                                <div class="product_item-img">
+                                    <img src="img/bitmap-1.png" alt="">
+                                </div>
+                            </div>
+
+                            <div class="product_item-right">
+                                <div class="product_item-title">
+                                    Шкарпетки короткі V&T
+                                </div>
+                                <div class="product_flex">
+
+
+                                    <div class="product_item-price_pre_one">
+                                        65.00 UAH
+                                    </div>
+                                    <div class="product_item-price_for_all">
+                                        65.00 UAH
+                                    </div>
+                                    <div class="product_item-quantity">
+                                        <div class="pay_item_1">
+                                            <div class="pay_item_text">
+                                                Кількість
+                                            </div>
+                                            <div class="pay_item_btn ">1</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="product_item">
+                        <div class="button_close">
+                            <div class="button_before" onclick="off_basket()">
+                            </div>
+                        </div>
+                        <div class="product_item_inner">
+                            <div class="product_item-left">
+                                <div class="product_item-img">
+                                    <img src="img/bitmap-1.png" alt="">
+                                </div>
+                            </div>
+
+                            <div class="product_item-right">
+                                <div class="product_item-title">
+                                    Шкарпетки короткі V&T
+                                </div>
+                                <div class="product_flex">
+
+
+                                    <div class="product_item-price_pre_one">
+                                        65.00 UAH
+                                    </div>
+                                    <div class="product_item-price_for_all">
+                                        65.00 UAH
+                                    </div>
+                                    <div class="product_item-quantity">
+                                        <div class="pay_item_1">
+                                            <div class="pay_item_text">
+                                                Кількість
+                                            </div>
+                                            <div class="pay_item_btn ">1</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="product_item">
+                        <div class="button_close">
+                            <div class="button_before" onclick="off_basket()">
+                            </div>
+                        </div>
+                        <div class="product_item_inner">
+                            <div class="product_item-left">
+                                <div class="product_item-img">
+                                    <img src="img/bitmap-1.png" alt="">
+                                </div>
+                            </div>
+
+                            <div class="product_item-right">
+                                <div class="product_item-title">
+                                    Шкарпетки короткі V&T
+                                </div>
+                                <div class="product_flex">
+
+
+                                    <div class="product_item-price_pre_one">
+                                        65.00 UAH
+                                    </div>
+                                    <div class="product_item-price_for_all">
+                                        65.00 UAH
+                                    </div>
+                                    <div class="product_item-quantity">
+                                        <div class="pay_item_1">
+                                            <div class="pay_item_text">
+                                                Кількість
+                                            </div>
+                                            <div class="pay_item_btn ">1</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="product_item">
+                        <div class="button_close">
+                            <div class="button_before" onclick="off_basket()">
+                            </div>
+                        </div>
+                        <div class="product_item_inner">
+                            <div class="product_item-left">
+                                <div class="product_item-img">
+                                    <img src="img/bitmap-1.png" alt="">
+                                </div>
+                            </div>
+
+                            <div class="product_item-right">
+                                <div class="product_item-title">
+                                    Шкарпетки короткі V&T
+                                </div>
+                                <div class="product_flex">
+
+
+                                    <div class="product_item-price_pre_one">
+                                        65.00 UAH
+                                    </div>
+                                    <div class="product_item-price_for_all">
+                                        65.00 UAH
+                                    </div>
+                                    <div class="product_item-quantity">
+                                        <div class="pay_item_1">
+                                            <div class="pay_item_text">
+                                                Кількість
+                                            </div>
+                                            <div class="pay_item_btn ">1</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="product_item">
+                        <div class="button_close">
+                            <div class="button_before" onclick="off_basket()">
+                            </div>
+                        </div>
+                        <div class="product_item_inner">
+                            <div class="product_item-left">
+                                <div class="product_item-img">
+                                    <img src="img/bitmap-1.png" alt="">
+                                </div>
+                            </div>
+
+                            <div class="product_item-right">
+                                <div class="product_item-title">
+                                    Шкарпетки короткі V&T
+                                </div>
+                                <div class="product_flex">
+
+
+                                    <div class="product_item-price_pre_one">
+                                        65.00 UAH
+                                    </div>
+                                    <div class="product_item-price_for_all">
+                                        65.00 UAH
+                                    </div>
+                                    <div class="product_item-quantity">
+                                        <div class="pay_item_1">
+                                            <div class="pay_item_text">
+                                                Кількість
+                                            </div>
+                                            <div class="pay_item_btn ">1</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="basket_right_bottom">
+                    <div class="basket_right_bottom_inner">
+                        <div class="basket_bottom_item">
+                            <div class="basket_bottom_title">
+                                Сума:
+                            </div>
+                            <div class="basket_bottom_price">
+                                2600.00 UAH
+                            </div>
+                        </div>
+                        <div class="basket_bottom_item">
+                            <div class="basket_bottom_title">
+                                Доставка:
+                            </div>
+                            <div class="basket_bottom_price">
+                                2600.00 UAH
+                            </div>
+                        </div>
+                        <div class="basket_bottom_item">
+                            <div class="basket_bottom_title">
+                                Сума:
+                            </div>
+                            <div class="basket_bottom_price">
+                                2600.00 UAH
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="basket_bottom_btns">
+                    <a href="#" class="default-btn">перейти в каталог</a>
+                    <a href="#" class="default-btn">перейти в каталог</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="follow">
+    <div class="container">
+        <div class="follow_inner">
+            <div class="follow_title">
+                Підпишись на новини та акції
+            </div>
+            <form  class="follow_email">
+
+                <input type="email" placeholder="Введіть email для підписки">
+                <button class="email_btn"></button>
+            </form>
+
+        </div>
+
+
+    </div>
+</div>
+<footer class="footer">
+    <div class="container">
+
+        <div class="footer_top">
+            <div class="footer_top_inner">
+                <div class="footer_top_item">
+                    <div class="footer_top_title">
+                        <a>
+                            про компанію
+                        </a>
+                        <span></span>
+                    </div>
+
+                    <ul>
+                        <li><a href="#">Про нас</a></li>
+                        <li><a href="#">Галерея</a></li>
+                        <li><a href="#">Таблиця розмірів</a></li>
+                        <li><a href="#">Новини</a></li>
+                        <li><a href="#">Відгуки</a></li>
+                        <li><a href="#">Контакти</a></li>
+
+                    </ul>
+                </div>
+                <div class="footer_top_item">
+                    <div class="footer_top_title">
+
+                        <a >
+                            Магазин
+                        </a>
+                        <span></span>
+
+                    </div>
+                    <ul>
+                        <li><a href="#">Жінкам</a></li>
+                        <li><a href="#">Чоловікам</a></li>
+                        <li><a href="#">Дитям</a></li>
+                        <li><a href="#">Sale</a></li>
+                        <li><a href="#">Підписка</a></li>
+                        <li><a href="#">Подарункові коробки</a></li>
+
+                    </ul>
+                </div>
+                <div class="footer_top_item">
+                    <div class="footer_top_title">
+                        <a >
+                            Клієнтам
+                        </a>
+                        <span></span>
+
+                    </div>
+                    <ul>
+                        <li><a href="#">Питання-відповідь</a></li>
+                        <li><a href="#">Доставка і оплата</a></li>
+                        <li><a href="#">Повернення товару</a></li>
+                    </ul>
+                    <div class="price_list">
+                        <a href="#">Прайс-лист</a>
+                    </div>
+                </div>
+                <div class="footer_top_item">
+                    <div class="footer_top_title">
+                        <a >
+                            Партнерам
+                        </a>
+                        <span></span>
+                    </div>
+                    <ul>
+                        <li><a href="#">Опт</a></li>
+                        <li><a href="#">Крупний опт</a></li>
+                        <li><a href="#">Дробшипинг</a></li>
+                        <li><a href="#">Корпоративні замовлення</a></li>
+                    </ul>
+                </div>
+                <div class="footer_top_item contact_item">
+                    <div class="footer_top_title">
+                        <div class="a" >
+                            Контакти
+                        </div>
+                        <span></span>
+                        </div>
+                    <ul class="social">
+                        <li><a href="#">+38 (096) 762-40-96</a></li>
+                        <li><a href="#">Nesterenkoluda.ln@gmail.com</a></li>
+                        <li class="social_icons">
+                            <a href="#" class="icon_facebook"><span></span> </a>
+                            <a href="#" class="icon_instagram"><span></span> </a>
+                            <a href="#" class="icon_twitter"><span></span> </a>
+                            <a href="#" class="icon_youtube"><span></span> </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer_bottom">
+        <div class="container">
+            <div class="footer_bottom_inner">
+                <div class="footer_copy">
+                    ©Сopyright 2018 - V&T SOCKS
+                </div>
+                <div class="footer_bottom_logo">
+                    <img src="img/ws_logo.svg" alt="">
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</footer>
+<script src="js/lib.js"></script>
+<script src="js/common.js"></script>
+</body>
+</html>
