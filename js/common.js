@@ -143,7 +143,7 @@ if($(window).width() < 992 ) {
 
 // hidden_menu_background
 
-// let overfl= document.querySelector(".button_before");
+let overfl= document.querySelector(".button_before");
 function on() {
     document.getElementById("overlay").style.display = "block";
     document.querySelector(".hidden_menu_background").style.display = "block";
@@ -165,7 +165,7 @@ let sel_currency= document.querySelector(".select_currency");
 
 sel_lang.addEventListener("click",clickOn);
 sel_currency.addEventListener("click",clickOn);
-// langLi.addEventListener("click",selectLang);
+langLi.addEventListener("click",selectLang);
 function clickOn(ev){
     if (ev.target.nextElementSibling.style.display == "block"){
         ev.target.nextElementSibling.style.display = "none";
